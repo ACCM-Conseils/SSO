@@ -18,8 +18,8 @@ namespace SO53654020
                 .AddCookie(Constants.SignInScheme)
                 .AddGoogle(o =>
                 {
-                    o.ClientId = "...";
-                    o.ClientSecret = "...";
+                    o.ClientId = "714516999404-hjs0u93mudrkm3ftb0n9n41kke7005mr.apps.googleusercontent.com";
+                    o.ClientSecret = "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";
                 });
 
             serviceCollection.AddMvc()
